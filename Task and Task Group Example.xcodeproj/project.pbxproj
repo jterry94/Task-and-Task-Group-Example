@@ -17,6 +17,14 @@
 		A5E1F4B627A051CE00A1B17D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E1F48E27A051CD00A1B17D /* ContentView.swift */; };
 		A5E1F4B727A051CE00A1B17D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5E1F48F27A051CE00A1B17D /* Assets.xcassets */; };
 		A5E1F4B827A051CE00A1B17D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5E1F48F27A051CE00A1B17D /* Assets.xcassets */; };
+		A5E1F4C827A0520200A1B17D /* MathClass .swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E1F4C727A0520200A1B17D /* MathClass .swift */; };
+		A5E1F4C927A0520200A1B17D /* MathClass .swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E1F4C727A0520200A1B17D /* MathClass .swift */; };
+		A5E1F4CA27A0520200A1B17D /* MathClass .swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E1F4C727A0520200A1B17D /* MathClass .swift */; };
+		A5E1F4CB27A0520200A1B17D /* MathClass .swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E1F4C727A0520200A1B17D /* MathClass .swift */; };
+		A5E1F4CD27A0524600A1B17D /* SlowCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E1F4CC27A0524600A1B17D /* SlowCalculator.swift */; };
+		A5E1F4CE27A0524600A1B17D /* SlowCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E1F4CC27A0524600A1B17D /* SlowCalculator.swift */; };
+		A5E1F4CF27A0524600A1B17D /* SlowCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E1F4CC27A0524600A1B17D /* SlowCalculator.swift */; };
+		A5E1F4D027A0524600A1B17D /* SlowCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E1F4CC27A0524600A1B17D /* SlowCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +56,8 @@
 		A5E1F4AB27A051CE00A1B17D /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5E1F4AF27A051CE00A1B17D /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		A5E1F4B127A051CE00A1B17D /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		A5E1F4C727A0520200A1B17D /* MathClass .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MathClass .swift"; sourceTree = "<group>"; };
+		A5E1F4CC27A0524600A1B17D /* SlowCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlowCalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +107,8 @@
 			children = (
 				A5E1F48D27A051CD00A1B17D /* Task_and_Task_Group_ExampleApp.swift */,
 				A5E1F48E27A051CD00A1B17D /* ContentView.swift */,
+				A5E1F4C727A0520200A1B17D /* MathClass .swift */,
+				A5E1F4CC27A0524600A1B17D /* SlowCalculator.swift */,
 				A5E1F48F27A051CE00A1B17D /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -291,6 +303,8 @@
 			files = (
 				A5E1F4B527A051CE00A1B17D /* ContentView.swift in Sources */,
 				A5E1F4B327A051CE00A1B17D /* Task_and_Task_Group_ExampleApp.swift in Sources */,
+				A5E1F4CD27A0524600A1B17D /* SlowCalculator.swift in Sources */,
+				A5E1F4C827A0520200A1B17D /* MathClass .swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +314,8 @@
 			files = (
 				A5E1F4B627A051CE00A1B17D /* ContentView.swift in Sources */,
 				A5E1F4B427A051CE00A1B17D /* Task_and_Task_Group_ExampleApp.swift in Sources */,
+				A5E1F4CE27A0524600A1B17D /* SlowCalculator.swift in Sources */,
+				A5E1F4C927A0520200A1B17D /* MathClass .swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +325,8 @@
 			files = (
 				A5E1F4A627A051CE00A1B17D /* Tests_iOSLaunchTests.swift in Sources */,
 				A5E1F4A427A051CE00A1B17D /* Tests_iOS.swift in Sources */,
+				A5E1F4CF27A0524600A1B17D /* SlowCalculator.swift in Sources */,
+				A5E1F4CA27A0520200A1B17D /* MathClass .swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +336,8 @@
 			files = (
 				A5E1F4B227A051CE00A1B17D /* Tests_macOSLaunchTests.swift in Sources */,
 				A5E1F4B027A051CE00A1B17D /* Tests_macOS.swift in Sources */,
+				A5E1F4D027A0524600A1B17D /* SlowCalculator.swift in Sources */,
+				A5E1F4CB27A0520200A1B17D /* MathClass .swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,7 +483,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -493,7 +513,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -528,7 +548,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jtIIT.Task-and-Task-Group-Example";
 				PRODUCT_NAME = "Task and Task Group Example";
@@ -557,7 +577,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jtIIT.Task-and-Task-Group-Example";
 				PRODUCT_NAME = "Task and Task Group Example";
