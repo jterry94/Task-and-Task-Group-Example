@@ -7,7 +7,7 @@
 
 import Foundation
 
-class SlowCalculator :ObservableObject {
+class SlowCalculator {
     
     /// slowSum
     /// - Parameters:

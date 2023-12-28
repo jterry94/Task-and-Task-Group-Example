@@ -6,13 +6,13 @@
 //
 
 import SwiftUI
-
+import Observation
 
 
 struct ContentView: View {
     
     
-    @ObservedObject var myMathClass = MathClass()
+    @Bindable var myMathClass = MathClass()
     
     var body: some View {
         VStack{

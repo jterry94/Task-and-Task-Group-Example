@@ -8,10 +8,10 @@
 import Foundation
 import Swift
 
-class MathClass :ObservableObject {
+@Observable class MathClass {
     
-    @Published var calculationString = ""
-    @Published var enableButton = true
+    var calculationString = ""
+    var enableButton = true
     
     /// slowMath
     /// Uses Task and TaskGroup to thread the internals of a Loop so that they run concurrently
@@ -74,6 +74,7 @@ class MathClass :ObservableObject {
                 
                 // Display the sorted text in the GUI
                 await updateGUI(text: "\(item.1)")
+                
                 
             }
             
